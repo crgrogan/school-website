@@ -1,0 +1,169 @@
+html, body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.top {
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 0 40px;
+}
+
+.left {
+    align-items: center;
+}
+
+.logo {
+    margin-right: 25px;
+}
+
+.school-name {
+    color: #333;
+    display: block;
+}
+
+.text-l {
+    font-size: 2.5rem;
+}
+
+.text-s {
+    font-size: 1.5rem;
+}
+
+.right {
+    display: flex;
+}
+
+.external-links {
+    margin-right: 20px;
+}
+
+.external-links img {
+    margin-right: 10px;
+}
+
+.external-links img:hover {
+    cursor: pointer;
+}
+
+.search-input {
+    height: 40px;
+    padding: 5px 10px;
+    width: 350px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #B32F54;
+    height: 50px;
+}
+
+.nav-link {
+    width: 12.5%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+}
+
+.link-heading {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-heading span {
+    width: 100%;
+    padding: 3px;
+    border-right: 1px solid white;
+}
+
+.nav-link:last-child span{
+    border-right: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px 3px;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #e6e6e6;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.nav-link:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Container */
+.hero-img {
+    width: 100%;
+    display: block;
+}
+
+.intro {
+    background-color: #e6e6e6;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.article-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(5, 5, 53);
+    color: white;
+    padding: 20px;
+}
